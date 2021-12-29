@@ -1,0 +1,15 @@
+{
+  "name": "postmannewman",
+  "version": "1.0.0",
+  "description": "Project for storing postman tests",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/Postman5956.postman_collection.json"
+  },
+  "author": "Shubham Aayushi",
+  "dependencies": {
+    "newman": "^5.3.0"
+  }
+}
